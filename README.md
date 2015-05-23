@@ -1,4 +1,4 @@
 # pingu
-Broadcast messages to all connected clients
+Broadcast messages to all connected web users
 
-REST API to publish notifications to browsers via SSE (Server Sent Events - similar to, but much more lightweight than WebSockets). 
+REST API to publish notifications to browsers via [https://developer.mozilla.org/en-US/docs/Server-sent_events](Server Sent Events) (lightweight one-way WebSockets). 
