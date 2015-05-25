@@ -9,7 +9,7 @@ import (
 func main() {
 	router := httprouter.New()
 
-	router.HandlerFunc("POST", "/fetch", NewFetchHandler())
+	router.HandlerFunc("POST", "/session", NewSessionHandler())
 
 	broadcaster := NewBroadcastHandler()
 	router.HandlerFunc("GET", "/broadcast/:channel", broadcaster)
